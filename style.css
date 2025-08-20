@@ -1,0 +1,108 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #111;
+  color: #eee;
+  line-height: 1.6;
+}
+
+/* Hero Header */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://www.transparenttextures.com/patterns/marble.png'),
+              linear-gradient(135deg, #000 40%, #8b0000 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: #ff1a1a;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin-top: 1rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff1a1a;
+}
+
+/* Intro Section */
+.intro {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #1a1a1a;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff1a1a;
+}
+
+.intro p {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ff1a1a;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #cc0000;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
